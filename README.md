@@ -1,3 +1,4 @@
+![logo](https://github.com/user-attachments/assets/56a1d64d-8470-481a-b58e-33585270279c)
 # 🧱 Beauty Framework
 
 **Beauty** is a blazing-fast, PSR-compliant, modular microframework for building REST and gRPC APIs on top of RoadRunner. It provides first-class support for clean architecture, strong developer ergonomics, and production-ready features without FPM overhead.
