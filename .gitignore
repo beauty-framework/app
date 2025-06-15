@@ -3,3 +3,4 @@ vendor
 .env
 rr
 protoc-gen-php-grpc
+composer.lock

@@ -2,10 +2,13 @@
   "name": "beauty-framework/app",
   "type": "project",
   "description": "Beauty Framework app",
-  "keywords": ["beauty", "app"],
+  "keywords": [
+    "beauty",
+    "app"
+  ],
   "license": "MIT",
   "authors": [],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "prefer-stable": true,
   "minimum-stability": "stable",
   "require": {
