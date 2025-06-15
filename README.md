@@ -160,7 +160,7 @@ services:
 
 ## 📚 Documentation
 
-Work in progress: see [`docs/README.md`](docs/README.md)
+See [documentation](https://beauty-framework.github.io/) page
 
 ---
 
