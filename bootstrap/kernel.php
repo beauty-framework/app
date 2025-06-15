@@ -17,6 +17,9 @@ require __DIR__ . '/helpers.php';
 $bootstrap = new class {
     /**
      * @return object
+     * @property array $middlewares
+     * @property ContainerManager $containerManager
+     * @property array $routerConfig
      */
     public function boot(): object
     {

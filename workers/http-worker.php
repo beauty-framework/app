@@ -1,5 +1,6 @@
 <?php
 
+use Beauty\Core\Container\ContainerManager;
 use Beauty\Core\Kernel\App;
 use Beauty\Core\Router\Exceptions\NotFoundException;
 use Beauty\Http\Request\Exceptions\ValidationException;
@@ -9,6 +10,7 @@ use Beauty\Http\Response\ValidationResponse;
 use Nyholm\Psr7\Factory\Psr17Factory;
 use Spiral\RoadRunner\Http\PSR7Worker;
 
+/** @var object{containerManager: ContainerManager, routerConfig: array, middlewares: array} $application */
 $application = require __DIR__ . '/../bootstrap/kernel.php';
 
 $psrFactory = new Psr17Factory();

@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
+use Beauty\Core\Container\ContainerManager;
 use Beauty\Jobs\JobRunner;
 use Spiral\RoadRunner\Jobs\Consumer;
 use Spiral\RoadRunner\Jobs\Task\Factory\ReceivedTaskFactory;
 use Spiral\RoadRunner\Worker;
 
+/** @var object{containerManager: ContainerManager, routerConfig: array, middlewares: array} $application */
 $application = require __DIR__ . '/../bootstrap/kernel.php';
 
 if (!class_exists(\Beauty\Jobs\Dispatcher::class)) {

@@ -174,6 +174,7 @@ Work in progress: see [`docs/README.md`](docs/README.md)
 * [`beauty-framework/jobs`](https://github.com/beauty-framework/jobs): Fiber-based job runner with RoadRunner support
 * [`beauty-framework/cli`](https://github.com/beauty-framework/cli): Framework-aware CLI kernel
 * [`beauty-framework/parallels`](https://github.com/beauty-framework/parallels): Parallel processing with Fibers (todo: RoadRunner)
+* [`beauty-framework/grpc`](https://github.com/beauty-framework/grpc): gRPC support (optional)
 
 ---
 
