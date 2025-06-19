@@ -23,6 +23,8 @@ RUN --mount=type=bind,from=mlocati/php-extension-installer:2,source=/usr/bin/ins
         msgpack \
         grpc \
         intl \
+        gd \
+        ds \
     && curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v24.4/protoc-24.4-linux-x86_64.zip \
     && unzip protoc-24.4-linux-x86_64.zip -d /usr/local \
     && rm protoc-24.4-linux-x86_64.zip
@@ -42,8 +44,6 @@ RUN addgroup -g ${WWWGROUP} appuser \
     && adduser -u ${WWWUSER} -G appuser -s /bin/sh -D appuser
 
 FROM base AS prod
-
-COPY . .
 
 USER appuser
 

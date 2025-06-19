@@ -111,7 +111,7 @@ redis:
 
 ## 🧪 Run PHPUnit tests
 test:
-	docker-compose exec -u www-data $(APP_CONTAINER) php artisan test
+	docker-compose exec -u www-data $(APP_CONTAINER) ./vendor/bin/phpunit
 
 ## Fix for make to avoid creating unnecessary files
 %:
