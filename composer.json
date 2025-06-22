@@ -13,7 +13,7 @@
       "email": "kirillsakharov.personal@gmail.com"
     }
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "prefer-stable": true,
   "minimum-stability": "stable",
   "require": {
