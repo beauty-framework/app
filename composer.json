@@ -7,7 +7,9 @@
     "app"
   ],
   "license": "MIT",
-  "authors": [],
+  "authors": [
+    "Kirill Sakharov <kirillsakharov.personal@gmail.com>"
+  ],
   "version": "1.0.3",
   "prefer-stable": true,
   "minimum-stability": "stable",

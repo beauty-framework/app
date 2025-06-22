@@ -32,7 +32,7 @@ Beauty is designed as a lightweight, modular and fast foundation for building mi
 
 ## 🗂 Project Structure
 
-```
+```shell
 ├── app
 │   ├── Console         # CLI commands
 │   ├── Container       # DI bindings for core services
@@ -175,6 +175,8 @@ See [documentation](https://beauty-framework.github.io/) page
 * [`beauty-framework/cli`](https://github.com/beauty-framework/cli): Framework-aware CLI kernel
 * [`beauty-framework/parallels`](https://github.com/beauty-framework/parallels): Parallel processing with Fibers (todo: RoadRunner)
 * [`beauty-framework/grpc`](https://github.com/beauty-framework/grpc): gRPC support (optional)
+* [`beauty-framework/collection`](https://github.com/beauty-framework/collection): Collection via `Array` or `Ds\Map` (optional)
+* [`beauty-framework/module-support`](https://github.com/beauty-framework/module-support): Module generation support (optional)
 
 ---
 
@@ -182,10 +184,10 @@ See [documentation](https://beauty-framework.github.io/) page
 
 * [ ] ORM support (query builder + migrations)
 * [ ] `beauty/testing` package with framework-aware test harness
-* [ ] gRPC server module with RoadRunner integration
+* [x] gRPC server module with RoadRunner integration
 * [ ] Job retries, delays, and failure handlers
 * [ ] OpenAPI/Swagger support
-* [ ] Full module documentation
+* [x] Full module documentation
 
 ---
 
