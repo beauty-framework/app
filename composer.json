@@ -8,7 +8,10 @@
   ],
   "license": "MIT",
   "authors": [
-    "Kirill Sakharov <kirillsakharov.personal@gmail.com>"
+    {
+      "name": "Kirill Sakharov",
+      "email": "kirillsakharov.personal@gmail.com"
+    }
   ],
   "version": "1.0.3",
   "prefer-stable": true,
