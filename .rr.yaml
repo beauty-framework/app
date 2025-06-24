@@ -7,7 +7,7 @@ server:
     - XDEBUG_SESSION: 1
 
 http:
-  address: 0.0.0.0:8080
+  address: 0.0.0.0:${HTTP_PORT:-8080}
   middleware: ["static", "headers"]
   headers:
     cors:
